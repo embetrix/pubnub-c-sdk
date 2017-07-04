@@ -7,7 +7,7 @@ export PREFIX LIBDIR INCDIR
 
 # We ignore examples/, they shall not be built by default and
 # their makefiles depend on libpubnub already being installed anyway.
-SUBDIRS=libpubnub libpubnub-cpp
+SUBDIRS=libpubnub
 
 all: all-recursive
 
